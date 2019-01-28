@@ -126,13 +126,25 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\AdoHelper.cs" />
+    <Compile Include="Helper\CalculatorHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\DetailObjectProperties.css" />
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\css\toastr.css" />
+    <Content Include="Assets\js\drawpolygon.js" />
+    <Content Include="Assets\js\positionDetail.js" />
+    <Content Include="Assets\js\toastr.min.js" />
+    <Content Include="Assets\uploads\city.jpg" />
+    <Content Include="Assets\uploads\leaf-orange.png" />
+    <Content Include="Assets\uploads\loading-page.gif" />
+    <Content Include="Assets\uploads\page-loader.gif" />
+    <Content Include="Assets\uploads\view.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -171,6 +183,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="DAL\BO\" />
+    <Folder Include="DAL\DAO\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
